@@ -107,7 +107,7 @@ public class ImageToText {
     }
     public static void main(String args[]) {
         try {
-            new ImageToText(ImageIO.read(new File("src/com/me/main/elon.jpg")));
+            new ImageToText(ImageIO.read(new File("src/com/me/main/Image1.jpg")));
         } catch (Exception e) {
            e.printStackTrace();
         }
